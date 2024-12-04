@@ -78,6 +78,62 @@
         margin-bottom: 26px;
     }
 
+    /* image-list */
+
+    .image-list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        @media (min-width: 460px) {
+            gap: 40px;
+        }
+
+        @media (min-width: 960px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        @media (min-width: 1440px) {
+            gap: 52px;
+        }
+
+        .image-list-item{
+            position: relative;
+
+            @media (min-width: 960px) {
+                flex: 1 1 calc(50% - 20px);
+            }
+
+            @media (min-width: 960px) {
+                flex: 1 1 calc(50% - 26px);
+            }
+
+            .image-title {
+                font-size: 22px;
+                font-weight: 900;
+                line-height: 1.2;
+                text-transform: uppercase;
+        
+                @media (min-width: 460px) {            
+                        font-size: 32px;
+                    }
+
+                @media (min-width: 660px) {            
+                        font-size: 54px;
+                    }
+
+                @media (min-width: 960px) {            
+                        font-size: 39px;
+                    }
+
+                @media (min-width: 1440px) {            
+                        font-size: 52px;
+                    }
+            }
+        }
+    }
+
     /* hero */
 
     .animals-hero {
@@ -133,7 +189,7 @@
     /* about */
 
     .animals-about {
-        background-image: url('../img/about-bg-mob.png');
+        background-image: url('../img/about-animals-bg-mob.png');
         background-repeat: no-repeat;
         background-size: cover;
         height: 680px;
@@ -150,12 +206,49 @@
         }
     }
 
+    .auto-about {
+        background-image: url('../img/about-auto-bg-mob.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 680px;
+
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-top: -25px;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            height: 100%;
+            justify-content: flex-end;
+        }
+    }
+
+    .frame-about {
+        background-image: url('../img/about-frame-bg-mob.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 680px;
+
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-top: -25px;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+    }
+
     /* details */
 
     .animals-details {
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         margin-top: -25px;
+        padding-bottom: 0;
         background-color: var(--white-color);
 
         .container{
@@ -188,6 +281,65 @@
                 .details-item-wrap:first-of-type {
                     border-right: solid 0.5px #000326;
                 }
+            }
+        }
+    }
+
+    /* animals-theme */
+
+    .animals-theme, .auto-theme {
+        .animals-theme-list {
+            .animals-title1-position {
+                position: absolute;
+                left: 10%;
+                top: 7%;
+            }
+
+            .animals-title2-position {
+                position: absolute;
+                left: 10%;
+                bottom: 7%;
+            }
+
+            .animals-title3-position {
+                position: absolute;
+                right: 10%;
+                bottom: 7%;
+            }
+
+            .animals-title4-position {
+                position: absolute;
+                right: 10%;
+                top: 7%;
+            }
+        }
+    }
+
+    .frame-theme {
+        .frame-theme-list {
+            .frame-theme-title {
+                position: absolute;
+                right: 7%;
+                bottom: 7%;
+                font-size: 14px;
+                font-weight: 900;
+                text-align: right;
+
+                @media (min-width: 460px) {            
+                    font-size: 22px;
+                }
+
+                @media (min-width: 660px) {            
+                        font-size: 30px;
+                    }
+
+                @media (min-width: 960px) {            
+                        font-size: 24px;
+                    }
+
+                @media (min-width: 960px) {            
+                        font-size: 32px;
+                    }
             }
         }
     }

@@ -51,8 +51,8 @@
         margin: 0 auto;
         padding: 18px 0 36px 0;
 
-        @media (min-width: 360px) {
-            padding: 70px 0 102px 0;
+        @media (min-width: 375px) {
+            padding: 36px 0 56px 0;
         }
 
         @media (min-width: 560px) {
@@ -86,7 +86,7 @@
         max-width: 100%;
         padding: 0 18px;
 
-        @media (min-width: 660px) {
+        @media (min-width: 375px) {
             padding: 0 36px;
         }
 

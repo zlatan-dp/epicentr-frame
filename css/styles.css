@@ -1,4 +1,4 @@
-#auto-for-kidstv {
+#frame-for-kidstv {
     --black-color: #000326;
     --white-color: #ffffff;
     --accent-color: #0F59D4;    
@@ -141,7 +141,7 @@
     }
 
     .margin-bottom {
-        margin-bottom: 26px;
+        margin-bottom: 22px;
 
         @media (min-width: 660px) {
             margin-bottom: 36px;
@@ -223,31 +223,21 @@
 
     /* hero */
 
-    .auto-hero {
+    .frame-hero {
         height: 800px;
         background-image: url('../img/hero-bg-mob.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50% 50%;
 
-        display: flex;
-        align-items: flex-end;
-
         @media (min-width: 560px) {
             background-image: url('../img/hero-bg-tab.png');
             height: 600px;
-            align-items: flex-start;
-            background-position: 30% 50%;
+            background-position: 25% 50%;
         }
         
         @media (min-width: 860px) {            
             background-position: 50% 50%;
-
-        }
-
-        @media (min-width: 1060px) {            
-            background-position: 50% 80%;
-
         }
 
         @media (min-width: 1240px) {
@@ -279,7 +269,7 @@
             font-size: 56px;
             font-weight: 600;
             line-height: 1;
-            margin-bottom: 32px;
+            margin-bottom: 28px;
 
             @media (min-width: 1240px) {            
                 font-size: 85px;
@@ -298,7 +288,7 @@
             line-height: 1;
             letter-spacing: 0.03em;
             text-transform: uppercase;
-            margin-bottom: 24px;
+            margin-bottom: 22px;
 
             @media (min-width: 760px) {            
                 font-size: 30px;                
@@ -318,7 +308,7 @@
         .hero-img-wrap {
             max-width: 300px;
             min-width: 250px;
-            margin-bottom: 24px;
+            margin-bottom: 22px;
 
             @media (min-width: 760px) {            
                 max-width: 394px;
@@ -350,7 +340,7 @@
 
     /* mood */
 
-    .auto-mood {
+    .frame-mood {
         background-color: var(--bg-color);
 
         @media (min-width: 760px) {

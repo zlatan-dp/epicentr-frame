@@ -793,8 +793,12 @@
                     font-size: 22px;
                     font-weight: 900;
 
-                    @media (min-width: 1240px) {
+                    @media (min-width: 1440px) {
                         font-size: 39px;
+                    }
+
+                    @media (min-width: 1680px) {
+                        font-size: 44px;
                     }
                 }
 

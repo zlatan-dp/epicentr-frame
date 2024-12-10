@@ -1,4 +1,4 @@
-#animals-for-kidstv {
+#auto-for-kidstv {
     --black-color: #000326;
     --white-color: #ffffff;
     --accent-color: #0F59D4;    
@@ -223,18 +223,31 @@
 
     /* hero */
 
-    .animals-hero {
+    .auto-hero {
         height: 800px;
         background-image: url('../img/hero-bg-mob.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50% 50%;
 
-        @media (min-width: 460px) {
+        display: flex;
+        align-items: flex-end;
+
+        @media (min-width: 560px) {
             background-image: url('../img/hero-bg-tab.png');
-        }
-        @media (min-width: 860px) {            
             height: 600px;
+            align-items: flex-start;
+            background-position: 30% 50%;
+        }
+        
+        @media (min-width: 860px) {            
+            background-position: 50% 50%;
+
+        }
+
+        @media (min-width: 1060px) {            
+            background-position: 50% 80%;
+
         }
 
         @media (min-width: 1240px) {
@@ -250,7 +263,7 @@
         .hero-logo-wrap {
             width: 86px;
             margin-bottom: 20px;
-
+            
             @media (min-width:1240px) {            
                 width: 130px;
                 margin-bottom: 32px;
@@ -337,7 +350,7 @@
 
     /* mood */
 
-    .animals-mood {
+    .auto-mood {
         background-color: var(--bg-color);
 
         @media (min-width: 760px) {
@@ -665,7 +678,7 @@
                     }
 
                     .details-item-name {
-                        width: 150px;
+                        width: 130px;
 
                         @media (min-width: 760px) {
                             width: 200px;

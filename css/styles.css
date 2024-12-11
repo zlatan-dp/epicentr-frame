@@ -463,12 +463,12 @@
 
         @media (min-width: 760px) {            
             background-image: url('../img/about-auto-bg-tab.png');
-            background-position: 50% 0%;
+            /* background-position: 50% 0%; */
             border-top-left-radius: 0px;
             border-top-right-radius: 0px;
             margin-top: 0px;
             padding-top: 0px;
-            height: 85vw;
+            height: 80vw;
         }
 
         @media (min-width: 1240px) {
@@ -499,7 +499,7 @@
                 @media (min-width: 760px) {
                     position: absolute;
                     left: 47%;
-                    top: 25%;
+                    top: 21%;
                     width: 350px;
                     height:auto;
                 }
@@ -507,12 +507,12 @@
                 @media (min-width: 960px) {                
                     width: 450px;
                     left: 50%;
-                    top: 30%;                    
+                    top: 25%;                    
                 }
 
                 @media (min-width: 1240px) {                    
                     left: 50%;
-                    top: 27%;
+                    top: 23%;
                     gap: 36px;
                     width: 620px;
 

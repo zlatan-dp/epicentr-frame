@@ -343,9 +343,9 @@
     .frame-mood {
         background-color: var(--bg-color);
 
-        @media (min-width: 760px) {
+        /* @media (min-width: 760px) {
             padding-bottom: 0px;
-        }
+        } */
 
         .mood-text {
             margin-bottom: 18px;
@@ -529,6 +529,7 @@
 
     .frame-about {
         background-image: url('../img/about-frame-bg-mob.png');
+        background-color: var(--bg-color);
         background-repeat: no-repeat;
         background-size: cover;
         height: 680px;
